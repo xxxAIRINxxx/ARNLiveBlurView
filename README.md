@@ -27,7 +27,7 @@ Requires iOS 7.0 or later, and uses ARC.
 How To Use
 ============
 
-### blur for superView
+### Blur at superView
 ```objectivec
 
     UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background"]];
@@ -40,7 +40,7 @@ How To Use
 
 ```
 
-### blur for selectView And Observe
+### Blur at selectView. And Observe
 ```objectivec
 
     UIImageView *backgroundView = [[UIImageView alloc] initWithImage:[UIImage imageNamed:@"background"]];

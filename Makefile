@@ -1,5 +1,5 @@
 PROJECT=Demo/ARNLiveBlurViewDemo.xcodeproj
-SCHEME=ARNLiveBlurView
+SCHEME=ARNLiveBlurViewDemo
 
 default: clean build
 

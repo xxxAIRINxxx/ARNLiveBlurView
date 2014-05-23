@@ -1,0 +1,342 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7AFA73B9192EFEF700E32FE6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFA73B8192EFEF700E32FE6 /* Foundation.framework */; };
+		7AFA73BB192EFEF700E32FE6 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFA73BA192EFEF700E32FE6 /* CoreGraphics.framework */; };
+		7AFA73BD192EFEF700E32FE6 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7AFA73BC192EFEF700E32FE6 /* UIKit.framework */; };
+		7AFA73C3192EFEF700E32FE6 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA73C1192EFEF700E32FE6 /* InfoPlist.strings */; };
+		7AFA73C5192EFEF700E32FE6 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA73C4192EFEF700E32FE6 /* main.m */; };
+		7AFA73C9192EFEF700E32FE6 /* ALBAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA73C8192EFEF700E32FE6 /* ALBAppDelegate.m */; };
+		7AFA73CC192EFEF700E32FE6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA73CA192EFEF700E32FE6 /* Main.storyboard */; };
+		7AFA73CF192EFEF700E32FE6 /* ALBFirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA73CE192EFEF700E32FE6 /* ALBFirstViewController.m */; };
+		7AFA73D2192EFEF700E32FE6 /* ALBSecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA73D1192EFEF700E32FE6 /* ALBSecondViewController.m */; };
+		7AFA73D4192EFEF700E32FE6 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA73D3192EFEF700E32FE6 /* Images.xcassets */; };
+		7AFA73F5192F006000E32FE6 /* background@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 7AFA73F4192F006000E32FE6 /* background@2x.png */; };
+		7AFA73FD192F00D800E32FE6 /* ARNLiveBlurView.m in Sources */ = {isa = PBXBuildFile; fileRef = 7AFA73FC192F00D800E32FE6 /* ARNLiveBlurView.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		7AFA73B5192EFEF700E32FE6 /* ARNLiveBlurViewDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ARNLiveBlurViewDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7AFA73B8192EFEF700E32FE6 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7AFA73BA192EFEF700E32FE6 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7AFA73BC192EFEF700E32FE6 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7AFA73C0192EFEF700E32FE6 /* ARNLiveBlurViewDemo-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "ARNLiveBlurViewDemo-Info.plist"; sourceTree = "<group>"; };
+		7AFA73C2192EFEF700E32FE6 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		7AFA73C4192EFEF700E32FE6 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7AFA73C6192EFEF700E32FE6 /* ARNLiveBlurViewDemo-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ARNLiveBlurViewDemo-Prefix.pch"; sourceTree = "<group>"; };
+		7AFA73C7192EFEF700E32FE6 /* ALBAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALBAppDelegate.h; sourceTree = "<group>"; };
+		7AFA73C8192EFEF700E32FE6 /* ALBAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALBAppDelegate.m; sourceTree = "<group>"; };
+		7AFA73CB192EFEF700E32FE6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7AFA73CD192EFEF700E32FE6 /* ALBFirstViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALBFirstViewController.h; sourceTree = "<group>"; };
+		7AFA73CE192EFEF700E32FE6 /* ALBFirstViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALBFirstViewController.m; sourceTree = "<group>"; };
+		7AFA73D0192EFEF700E32FE6 /* ALBSecondViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ALBSecondViewController.h; sourceTree = "<group>"; };
+		7AFA73D1192EFEF700E32FE6 /* ALBSecondViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ALBSecondViewController.m; sourceTree = "<group>"; };
+		7AFA73D3192EFEF700E32FE6 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		7AFA73F4192F006000E32FE6 /* background@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "background@2x.png"; sourceTree = "<group>"; };
+		7AFA73FB192F00D800E32FE6 /* ARNLiveBlurView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ARNLiveBlurView.h; path = ../ARNLiveBlurView/ARNLiveBlurView.h; sourceTree = "<group>"; };
+		7AFA73FC192F00D800E32FE6 /* ARNLiveBlurView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ARNLiveBlurView.m; path = ../ARNLiveBlurView/ARNLiveBlurView.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7AFA73B2192EFEF700E32FE6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFA73BB192EFEF700E32FE6 /* CoreGraphics.framework in Frameworks */,
+				7AFA73BD192EFEF700E32FE6 /* UIKit.framework in Frameworks */,
+				7AFA73B9192EFEF700E32FE6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7AFA73AC192EFEF700E32FE6 = {
+			isa = PBXGroup;
+			children = (
+				7AFA73FA192F00CA00E32FE6 /* ARNLiveBlurView */,
+				7AFA73BE192EFEF700E32FE6 /* ARNLiveBlurViewDemo */,
+				7AFA73B7192EFEF700E32FE6 /* Frameworks */,
+				7AFA73B6192EFEF700E32FE6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7AFA73B6192EFEF700E32FE6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7AFA73B5192EFEF700E32FE6 /* ARNLiveBlurViewDemo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7AFA73B7192EFEF700E32FE6 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7AFA73B8192EFEF700E32FE6 /* Foundation.framework */,
+				7AFA73BA192EFEF700E32FE6 /* CoreGraphics.framework */,
+				7AFA73BC192EFEF700E32FE6 /* UIKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7AFA73BE192EFEF700E32FE6 /* ARNLiveBlurViewDemo */ = {
+			isa = PBXGroup;
+			children = (
+				7AFA73C7192EFEF700E32FE6 /* ALBAppDelegate.h */,
+				7AFA73C8192EFEF700E32FE6 /* ALBAppDelegate.m */,
+				7AFA73CA192EFEF700E32FE6 /* Main.storyboard */,
+				7AFA73CD192EFEF700E32FE6 /* ALBFirstViewController.h */,
+				7AFA73CE192EFEF700E32FE6 /* ALBFirstViewController.m */,
+				7AFA73D0192EFEF700E32FE6 /* ALBSecondViewController.h */,
+				7AFA73D1192EFEF700E32FE6 /* ALBSecondViewController.m */,
+				7AFA73D3192EFEF700E32FE6 /* Images.xcassets */,
+				7AFA73F4192F006000E32FE6 /* background@2x.png */,
+				7AFA73BF192EFEF700E32FE6 /* Supporting Files */,
+			);
+			path = ARNLiveBlurViewDemo;
+			sourceTree = "<group>";
+		};
+		7AFA73BF192EFEF700E32FE6 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AFA73C0192EFEF700E32FE6 /* ARNLiveBlurViewDemo-Info.plist */,
+				7AFA73C1192EFEF700E32FE6 /* InfoPlist.strings */,
+				7AFA73C4192EFEF700E32FE6 /* main.m */,
+				7AFA73C6192EFEF700E32FE6 /* ARNLiveBlurViewDemo-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7AFA73FA192F00CA00E32FE6 /* ARNLiveBlurView */ = {
+			isa = PBXGroup;
+			children = (
+				7AFA73FB192F00D800E32FE6 /* ARNLiveBlurView.h */,
+				7AFA73FC192F00D800E32FE6 /* ARNLiveBlurView.m */,
+			);
+			name = ARNLiveBlurView;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7AFA73B4192EFEF700E32FE6 /* ARNLiveBlurViewDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7AFA73EA192EFEF700E32FE6 /* Build configuration list for PBXNativeTarget "ARNLiveBlurViewDemo" */;
+			buildPhases = (
+				7AFA73B1192EFEF700E32FE6 /* Sources */,
+				7AFA73B2192EFEF700E32FE6 /* Frameworks */,
+				7AFA73B3192EFEF700E32FE6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ARNLiveBlurViewDemo;
+			productName = ARNLiveBlurViewDemo;
+			productReference = 7AFA73B5192EFEF700E32FE6 /* ARNLiveBlurViewDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7AFA73AD192EFEF700E32FE6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = ALB;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = Airin.;
+			};
+			buildConfigurationList = 7AFA73B0192EFEF700E32FE6 /* Build configuration list for PBXProject "ARNLiveBlurViewDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7AFA73AC192EFEF700E32FE6;
+			productRefGroup = 7AFA73B6192EFEF700E32FE6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7AFA73B4192EFEF700E32FE6 /* ARNLiveBlurViewDemo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7AFA73B3192EFEF700E32FE6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFA73D4192EFEF700E32FE6 /* Images.xcassets in Resources */,
+				7AFA73C3192EFEF700E32FE6 /* InfoPlist.strings in Resources */,
+				7AFA73F5192F006000E32FE6 /* background@2x.png in Resources */,
+				7AFA73CC192EFEF700E32FE6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7AFA73B1192EFEF700E32FE6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7AFA73CF192EFEF700E32FE6 /* ALBFirstViewController.m in Sources */,
+				7AFA73FD192F00D800E32FE6 /* ARNLiveBlurView.m in Sources */,
+				7AFA73C9192EFEF700E32FE6 /* ALBAppDelegate.m in Sources */,
+				7AFA73D2192EFEF700E32FE6 /* ALBSecondViewController.m in Sources */,
+				7AFA73C5192EFEF700E32FE6 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		7AFA73C1192EFEF700E32FE6 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AFA73C2192EFEF700E32FE6 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		7AFA73CA192EFEF700E32FE6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7AFA73CB192EFEF700E32FE6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7AFA73E8192EFEF700E32FE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7AFA73E9192EFEF700E32FE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7AFA73EB192EFEF700E32FE6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARNLiveBlurViewDemo/ARNLiveBlurViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "ARNLiveBlurViewDemo/ARNLiveBlurViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		7AFA73EC192EFEF700E32FE6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "ARNLiveBlurViewDemo/ARNLiveBlurViewDemo-Prefix.pch";
+				INFOPLIST_FILE = "ARNLiveBlurViewDemo/ARNLiveBlurViewDemo-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7AFA73B0192EFEF700E32FE6 /* Build configuration list for PBXProject "ARNLiveBlurViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFA73E8192EFEF700E32FE6 /* Debug */,
+				7AFA73E9192EFEF700E32FE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7AFA73EA192EFEF700E32FE6 /* Build configuration list for PBXNativeTarget "ARNLiveBlurViewDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7AFA73EB192EFEF700E32FE6 /* Debug */,
+				7AFA73EC192EFEF700E32FE6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7AFA73AD192EFEF700E32FE6 /* Project object */;
+}
